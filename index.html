@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-collapse</title>
+</head>
+<body>
+
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            
+        }
+
+        #table2{
+            border-collapse: separate;
+        }
+    </style>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+        </tr>
+
+        <tr>
+            <td>Askarbek</td>
+            <td>Zholdoshov</td>
+        </tr>
+
+        <tr>
+            <td>Askarbek</td>
+            <td>Zholdoshov</td>
+        </tr>
+    </table>
+    <p>This table is border-colapse:collapse.</p>
+
+    <table id="table2">
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+        </tr>
+
+        <tr>
+            <td>Askarbek</td>
+            <td>Zholdoshov</td>
+        </tr>
+
+        <tr>
+            <td>Askarbek</td>
+            <td>Zholdoshov</td>
+        </tr>
+    </table>
+    <P>This table is border-collapse:seperate.</P>
+    
+</body>
+</html>
